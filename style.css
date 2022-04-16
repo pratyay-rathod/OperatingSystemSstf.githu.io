@@ -1,0 +1,150 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+a {
+  color: whitesmoke;
+}
+a:hover {
+  color: white;
+}
+
+.img {
+  height: 70px;
+  width: 70px;
+  float: left;
+  border-radius: 50%;
+}
+.CName_login {
+  width: 100%;
+  height: 90px;
+  background-color: rgb(62, 81, 100);
+  display: flex;
+  justify-content: center;
+  color: rgb(114, 242, 247);
+  padding: 16px;
+}
+.login {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.cat_image {
+  width: 500px;
+  height: 350px;
+  border-radius: 10px;
+  border: 2px solid rgb(223, 167, 16);
+}
+label {
+  display: block;
+}
+.vertical {
+  border-left: 1px solid rgb(62, 81, 100);
+  height: 400px;
+  position: absolute;
+  left: 50%;
+  padding: 0px 105px;
+}
+
+.homebutton {
+  text-align: center;
+  margin-top: 60px;
+  color: black;
+}
+.homebutton a {
+  text-decoration: none;
+}
+
+/* ------------------------------------------------form inputs css ---------------------------------*/
+
+.Name {
+  width: 500px;
+  height: 35px;
+  outline: none;
+  border: 0.5px solid rgb(206, 195, 195);
+  border-radius: 4px;
+  padding: 10px;
+  margin: 5px 0px;
+}
+
+
+#label {
+  color: #1a1163;
+  font-size: 20px;
+  margin-top: 5px;
+}
+
+/* ---------------------------------------------- section css ------------------------------------------- */
+
+.Products-Display {
+  background-color: #f7dbb8e5;
+  height: auto;
+  width: 100%;
+}
+.categories {
+  padding: 20px;
+}
+.welcome {
+  /* padding: 50px; */
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  border-color: rgb(226, 87, 110);
+  border-style: solid;
+  color: #2f2588b0;
+}
+.just4fun {
+  color: rgb(14, 12, 13);
+}
+
+.processvalues{
+  width:500px;
+  height:auto;
+  background-color: rgb(245, 194, 176);
+  padding:10px;
+  border-radius: 10px;
+  color: rgb(0, 0, 0);
+  border: 2px solid rgb(42, 174, 214);
+}
+
+  /* ------------------------------------------------------------ media query for phone -------------------------------------------------*/
+@media only screen and (max-width: 500px) {
+  .cat_image {
+    display:none;
+  }
+  .vertical {
+    display:none;
+  }
+  .Name {
+    width: 250px;
+    height: 35px;
+    outline: none;
+    border: 0.5px solid rgb(206, 195, 195);
+    border-radius: 4px;
+    padding: 10px;
+    margin: 5px 0px;
+  }
+
+  #label {
+    color: #1a1163;
+    font-size: 18px;
+    margin-top: 5px;
+  }
+  .Products-Display {
+    background-color: #f7dbb8e5;
+    height: 160vh;
+    width: 100%;
+  }
+  .btn{
+    width: 250px;
+    height: 35px;
+  }
+  .processvalues{
+    width: 250px;
+
+  }
+  .output{
+    width: 250px;
+  }
+}
